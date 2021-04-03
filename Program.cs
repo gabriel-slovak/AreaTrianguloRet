@@ -8,7 +8,7 @@ namespace AreaTrianguloRet
         {
             double b;
             double h;
-            double divisão = 2;
+            const double divisor = 2;
 
             Console.WriteLine();
             Console.WriteLine("-------------------------------------------");
@@ -29,10 +29,9 @@ namespace AreaTrianguloRet
             Console.ResetColor();
 
         
-            Console.Write("A área do triângulo é: " +b * h /divisão);
+            Console.Write("A área do triângulo é: " + (b * h /divisor));
             Console.ResetColor();
             Console.WriteLine("\n");
-
         }
     }
 }
